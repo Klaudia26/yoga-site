@@ -1,5 +1,11 @@
+.container {
+    max-width: 140rem;
+    margin: auto;
+}
+
 .flex-center {
     display: flex;
     align-items: center;
     justify-content: space-between; 
 }
+
