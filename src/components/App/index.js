@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../Header';
+import Navigation from '../Navigation';
 import Home from '../Home';
 import About from '../About';
 import Blog from '../Blog';
@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Header />
+        <Navigation />
         <Home />
         <About />
         <Features />
