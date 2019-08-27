@@ -1,0 +1,29 @@
+.section-home{
+    background-image: url('../../assets/img/home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -10.2rem;
+    z-index: -1;
+   
+    .heading-primary {
+        color: white;
+        padding: 20rem 0 40rem;
+
+        &__main  {
+            display: block;
+            font-size: 5rem;
+            width: 38rem;
+            padding-bottom: 3rem;
+        }
+
+        &__sub{
+            display: block;
+            width: 30rem;
+            font-style: 300;
+            font-size: 1rem;
+        }
+        
+
+    }
+}
