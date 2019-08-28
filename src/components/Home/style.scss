@@ -1,29 +1,27 @@
-.section-home{
+.section-home {
     background-image: url('../../assets/img/home.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
     top: -10.2rem;
     z-index: -1;
-   
-    .heading-primary {
-        color: white;
-        padding: 20rem 0 40rem;
 
-        &__main  {
+    .heading-primary {
+        color: #fff;
+        padding: 20rem 0 40rem;
+        text-transform: uppercase;
+        width: 50rem;
+
+        &__main {
             display: block;
             font-size: 5rem;
-            width: 38rem;
             padding-bottom: 3rem;
         }
 
-        &__sub{
+        &__sub {
             display: block;
-            width: 30rem;
-            font-style: 300;
-            font-size: 1rem;
+            font-size: 1.3rem;
+            font-weight: 300;
         }
-        
-
     }
 }

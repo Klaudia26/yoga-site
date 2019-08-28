@@ -1,0 +1,25 @@
+.section-about{
+    .row {
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0;
+
+        &--right{
+            background-image: url('../../assets/img/women2.png');
+            background-position: 100%;
+        }
+
+        &--left{
+            background-image: url('../../assets/img/women8.png');
+            background-position: 0%;
+        }
+    }
+
+    .content {
+       width: 60rem;
+
+       &--right {
+           margin-left: auto;
+       }
+    }
+}
