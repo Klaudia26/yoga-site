@@ -9,3 +9,23 @@
     justify-content: space-between; 
 }
 
+.row {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0;
+    &--right{
+        background-position: 100%;
+    }
+
+    &--left{
+        background-position: 0%;
+    }
+}
+
+.content {
+    width: 60rem;
+
+    &--right {
+        margin-left: auto;
+    }
+}

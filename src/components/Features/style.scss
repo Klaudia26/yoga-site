@@ -1,0 +1,24 @@
+.section-features {
+    .row {
+        &--right {
+            background-image: url('../../assets/img/women1.png');
+        }
+
+        &--left {
+            background-image: url('../../assets/img/women4.png');
+        }
+    }
+
+    .author {
+        &__name {
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        &__age {
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+    }
+}
